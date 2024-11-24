@@ -1,0 +1,323 @@
+*{
+    font-family: "Rubik", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+    
+}
+
+header{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+   
+}
+
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffc400;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navbar li{
+    padding: 0 20px;
+    display: inline-block;
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.navbar a:hover{
+    transition: all 0.3s ease 0s;
+    color: #ffc400;
+    
+}
+
+
+
+.main{
+    background: linear-gradient( to right, #ffb900,  #ffc400);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 2%;
+    width: 100%;
+    min-height: 100vh;
+
+
+}
+
+.welcome p{
+    font-family: "Moirai One", system-ui;
+    font-size: 90px;
+    font-weight: 700;
+    color: #ffe6a1;
+}
+
+.welcome h1{
+    text-align: center;
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: "Bagel Fat One", system-ui;
+    color: #ffe6a1;
+}
+.main-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-icon a{
+   padding: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.7em;
+    transition: 0.3s ease;
+   
+    
+}
+.main-icon a:hover{
+    color: #ffe6a1;
+    transition: 0.3s ease;
+}
+.main-but{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+}
+#but{
+    color: #000;
+    background-color: #ffe6a1;
+    text-decoration: none;
+    padding:10px 30px;
+    font-size: 15px;
+    border-radius: 50px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.7s ease;
+    
+   
+}
+#but:hover{
+    color: #ffe6a1;
+    background-color: #000000;
+   
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #ffc400;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin: 30px 0;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.3s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    
+}
+
+.icon{
+    color: #ffc400;
+    font-size: 7em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color: #ffc400;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.projects{
+    background-color: #000;
+}
+.projects .title {
+    
+    padding: 30px 0;
+   
+}
+
+.projects .content{
+    margin-top: 30px;
+}
+
+.project-card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.3s ease;
+}
+
+.project-card:hover {
+   transform: scale(1.1);
+}
+
+.project-card:hover .project-image {
+    opacity: 0.9;
+ }
+
+.project-image img{
+    width: 100%
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 0.8em;
+    color: #000;
+}
+
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.contact-icon{
+    color: #ffc400;
+    font-size: 5em;
+    text-align: center;
+}
+.more-details {
+    text-decoration: none;
+    color: #ffc400;
+}
+
+.more-details:hover {
+    color: #000;
+}
+
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #ffc400;
+    text-transform: uppercase;
+}
+
+
+.footer-icon a{
+   
+    padding: 10px;
+     text-decoration: none;
+     color: #ffffff;
+     font-size: 1.7em;
+     transition: 0.3s ease;
+    
+     
+ }
+ .footer-icon a:hover{
+     color: #ffe6a1;
+     transition: 0.3s ease;
+ }
+
+
+ @media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+    .welcome p{
+        
+        font-size: 2.5em;
+    }
+
+    .welcome h1{
+        
+        font-size: 3em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+    
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    padding: 10px 15px;
+    font-size: 25px;
+    background-color: #ffc400;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease;
+    opacity: 0; 
+    visibility: hidden; 
+}
+
+
+.back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+}
